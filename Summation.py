@@ -1,9 +1,10 @@
+def summation(x):
+  output_number = float((x * (x + 1))/2)
+  print(str(output_number))
+    
 while (True):
   output_number = 0
   x = float(input("Enter a number: "))
-  def summation(x):
-    output_number = float((x * (x + 1))/2)
-    print(str(output_number))
 
   summation(x)
 
